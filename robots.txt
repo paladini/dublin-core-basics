@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://paladini.github.io/dublin-core-basics/sitemap.xml
