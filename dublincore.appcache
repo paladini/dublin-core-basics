@@ -1,0 +1,17 @@
+CACHE MANIFEST
+
+# Fonts
+/assets/fonts/exo-2-extra-bold-800.woff
+/assets/fonts/exo-2.woff
+/assets/fonts/russo-one.woff
+
+# JS
+/assets/javascripts/jquer-2.1.0.min.js
+/assets/javascripts/verge.min.js
+/assets/javascripts/prettify.min.js
+
+# CSS
+/assets/sass/index.css
+
+# Images
+/assets/images/dublin-core-logo-smush.png
