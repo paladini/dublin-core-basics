@@ -136,6 +136,7 @@ body {
       vertical-align: baseline;
       white-space: nowrap;
       width: auto;
+      max-width: 100px;
     }
 
     body .default-flag:hover + .choice-flag{
@@ -166,6 +167,7 @@ body {
       width: auto;
       display: none;
       border-top: 1px dotted #666;
+      max-width: 100px;
     }
 
     body .choice-flag a{
