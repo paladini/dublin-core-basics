@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html manifest="dublincore.appcache" lang="pt-br">
+	<head>
+		<title>Dublin Core: O Guia dos Iniciantes</title>
+
+		<!-- Importing CSS -->
+		<link rel="stylesheet" type="text/css" href="../../assets/sass/index.css" />
+
+		<!-- Meta Tags -->
+		<meta name="author" content="Fernando Paladini" />
+		<meta name="description" content="Dublin Core: O Guia dos Iniciantes é um tutorial opens-ource que introduz o Dublin Core, uma iniciativa que preza pelo uso de meta tags para melhorar a semântica do conteúdo digital, melhorando assim o SEO do seu site." />
+		<meta name="keywords" content="dublin core, básico, SEO, guia, tutorial, gerador, semántica, o que é, introdução, como aplicar" />
+		<meta name="robots" content="all" />
+		<meta name="rating" content="general" />
+
+		<!-- Cache and others -->
+		<meta http-equiv="Cache-control" content="public">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Dublin Core -->
+		<meta name="DC.Title" content="Dublin Core: O Guia dos Iniciantes.">
+		<meta name="DC.Creator" content="Fernando Paladini" />
+		<meta name="DC.Subject" content="Dublin Core Meta Tags" />
+		<meta name="DC.Description" content="Conheça e entenda os conceitos básicos do Dublin Core. Dublin Core: o Guia dos Iniciantes." />
+		<meta name="DC.Publisher" content="Fernando Paladini" />
+		<meta name="DC.Contributor" content="Fernando Paladini" />
+		<meta name="DC.Date" content="2014-02" />
+		<meta name="DC.Type" content="text" />
+		<meta name="DC.Format" content="text/html" />
+		<meta name="DC.Identifier" content="http://paladini.github.io/dublin-core-basics/"/>
+		<meta name="DC.Source" content="https://github.com/paladini/dublin-core-basics" />
+		<meta name="DC.Language" content="pt-BR" />
+		<meta name="DC.Relation" content="https://github.com/paladini/dublin-core-basics" scheme="IsPartOf" />
+		<meta name="DC.Coverage" content="Florianópolis, Brazil" />
+		<meta name="DC.Rights" content="Copyleft 2014, Fernando Paladini. Nenhum direito reservado." />
+
+		<!-- Facebook -->
+		<meta property="og:title" content="Dublin Core: O Guia dos Iniciantes" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="" />
+		<meta property="og:url" content="http://paladini.github.io/dublin-core-basics/" />
+		<meta property="og:description" content="Dublin Core: O Guia dos Iniciantes é um tutorial opens-ource que introduz o Dublin Core, uma iniciativa que preza pelo uso de meta tags para melhorar a semântica do conteúdo digital, melhorando assim o SEO do seu site." />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Dublin Core: O Guia dos Iniciantes" />
+		<meta name="twitter:description" content="Dublin Core: O Guia dos Iniciantes é um tutorial opens-ource que introduz o Dublin Core, uma iniciativa que preza pelo uso de meta tags para melhorar a semântica do conteúdo digital, melhorando assim o SEO do seu site." />
+		<meta name="twitter:image" content="" />
+
+	</head>
+	<body>
+
+		<span class="default-flag">
+			<span class="flag-icon flag-icon-br"></span>
+			BR
+		</span>
+
+		<span class="choice-flag">
+			<a href="../../index.html">
+				<span class="flag-icon flag-icon-us"></span>
+				EN
+			</a>
+		</span>
+
+		<div class="ribbon left white">
+		  <a href="https://github.com/paladini/dublin-core-basics" target="_blank" rel="follow" alt="Fork me!" title="Fork me!">Fork no GitHub</a>
+		</div>
+
+		<header>
+			<div class="slide1 center-h center-v" id="slide1">
+				<!-- <div class="content"> -->
+					<div class="logo">
+						<img src="../../assets/images/dublin-core-logo-smush.png" height="200" width="200" alt="Dublin Core: O Guia dos Iniciantes" title="Dublin Core: O Guia dos Iniciantes"/>
+						<h1>Dublin Core</h1>
+						<h2>O Guia dos Iniciantes.</h2>
+					</div>
+
+					<nav>
+						<ul>
+							<li><a href="#slide2" data-anchor>O que é?</a></li>
+							<li><a href="#slide3" data-anchor>Introdução</a></li>
+							<li><a href="#slide4" data-anchor>Tags</a></li>
+							<li><a href="#slide5" data-anchor>Como Aplicar</a></li>
+							<li><a href="#slide6" data-anchor>Conclusão</a></li>
+						</ul>
+					</nav>
+
+					<p class="arrow-keys">Use as setas do teclado para navegar.</p>
+				<!-- </div> -->
+			</div>
+		</header>
+
+		<main>
+			<div class="slide-odd center-h" id="slide2">
+					<div class="content">
+						<h1>O que é "Dublin Core"?</h1>
+						<p>A Iniciativa de Meta-dados Dublin Core é um movimento open-source que tem como objetivo padronizar o conteúdo digital. Pelo lado do SEO, usar o Dublin Core é uma vantagem porque os buscadores (Google, Yahoo) podem usar estes dados para entender melhor o seu conteúdo. 
+						<br/><br/>
+						Isso torna o seu site mais atrativos para os buscadores. E também:</p>
+
+						<ol class="beauty-list">
+							<li>É fácil de implementar.</li>
+							<li>Não custa nada.</li>
+							<li>Padroniza o seu site.</li>
+						</ol>
+
+						<p>
+							Aperte a <i>seta para baixo</i> para ter uma <a data-anchor href="#slide3"><b>introdução</b></a> do Dublin Core.
+						</p>
+					</div>
+			</div>
+
+			<div class="slide-even center-h" id="slide3">
+				<div class="content">
+					<h1>Introdução</h1>
+					<p>
+						O padrão Dublin Core inclui dois níveis: <b>Simples</b> e <b>Qualificado</b>. O Dublin Core simples é composto de 15 elementos. O DC Qualificado é mais complexo, inclui três elementos adicionais e um grupo de <i>qualificadores</i>, por isso não vamos tratar dele aqui.
+
+						<br/><br/>
+						Algumas tags DC Simples são:
+					</p>
+
+					<ol class="beauty-list">
+						<li>title</li>
+						<li>creator</li>
+						<li>subject</li>
+						<li>description</li>
+						<li>e assim por diante...</li>
+					</ol>
+
+					<p>
+						Vamos conhecer as <a href="#slide4" data-anchor><b>meta tags</b></a> que compõem o Dublin Core simples?
+					</p>
+
+				</div>
+			</div>
+
+			<div class="slide-odd center-h" id="slide4">
+				<div class="content">
+					<h1>Tags</h1>
+					
+					<p>Antes de você começar, dê uma olhada nessas dicas: se você clicar em qualquer parte da caixa de código, o código dentro dela será automagicamente selecionado para você - apenas precisa copiar, não selecionar. Se tiver alguma dúvida sobre alguma tag, clique no título da tag e você será redirecionado para uma página contendo informação detalhada sobre esta tag.
+					<br/><br/>
+					Nós recomendamos que você leia todas as tags e descrições, mas se você quiser, pode pular para uma tag específica:</p>
+					<ol class="beauty-list">
+						<li><a href="#title" data-anchor>Title</a></li>
+						<li><a href="#creator" data-anchor>Creator</a></li>
+						<li><a href="#subject" data-anchor>Subject</a></li>
+						<li><a href="#description" data-anchor>Description</a></li>
+						<li><a href="#publisher" data-anchor>Publisher</a></li>
+						<li><a href="#contributor" data-anchor>Contributor</a></li>
+						<li><a href="#date" data-anchor>Date</a></li>
+						<li><a href="#type" data-anchor>Type</a></li>
+						<li><a href="#format" data-anchor>Format</a></li>
+						<li><a href="#identifier" data-anchor>Identifier</a></li>
+						<li><a href="#source" data-anchor>Source</a></li>
+						<li><a href="#language" data-anchor>Language</a></li>
+						<li><a href="#relation" data-anchor>Relation</a></li>
+						<li><a href="#coverage" data-anchor>Coverage</a></li>
+						<li><a href="#rights" data-anchor>Rights</a></li>
+					</ol>
+
+					<!-- Title -->
+					<p id="title">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#title" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Title:</a></b>
+						<br />
+						O nome do seu site. Similar ao conteúdo da tag &lt;title&gt; do seu HTML.
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name="DC.Title" content="Dublin Core: O Guia dos Iniciantes."&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Creator -->
+					<p id="creator">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#creator" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Creator:</a></b>
+						<br/>
+						A pessoa ou organização responsável pelo conteúdo.
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Creator&quot; content=&quot;Fernando Paladini&quot; /&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Subject -->
+					<p id="subject">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#subject" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Subject:</a></b>
+						<br/>
+						Os assuntos cobertos pelo conteúdo.
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Subject&quot; content=&quot;Dublin Core Meta Tags&quot; /&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Description -->
+					<p id="description">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#description" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Description:</a></b>
+						<br/>
+						Uma descrição resumida sobre o conteúdo. Pode ser o mesmo que o conteúdo da tag &lt;meta name=&quot;description&quot;&gt; no seu HTML.
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Description&quot; content=&quot;Conheça e entenda os conceitos básicos do Dublin Core. Dublin Core: o Guia dos Iniciantes.&quot; /&gt;</code><br/>&nbsp;</pre>
+					
+
+					<!-- Publisher -->
+					<p id="publisher">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#publisher" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Publisher:</a></b>
+						<br/>
+						Uma entidade (pessoa, organização ou serviço) responsável por deixar o conteúdo disponível.
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Publisher&quot; content=&quot;Fernando Paladini&quot; /&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Contributor -->
+					<p id="contributor">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#contributor" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Contributor:</a></b>
+						<br/>
+						Pessoa, organização ou serviço que contribuiu com o conteúdo.
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Contributor&quot; content=&quot;Fernando Paladini&quot; /&gt;</code><br/>&nbsp;</pre>
+					
+
+					<!-- Date -->
+					<p id="date">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#date" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Date:</a></b>
+						<br/>
+						Um ponto ou período de tempo associado com o tempo de vida do conteúdo. Normalmente uma data de quando o conteúdo se tornou disponível. Formatos disponíveis:
+					</p>
+					<ul class="beauty-list">
+						<li>AAAA-MM-DD</li>
+						<li>AAAA-MM</li>
+						<li>AAAA</li>
+					</ul>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Date&quot; content=&quot;2014-02&quot; /&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Type -->
+					<p id="type">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#type" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Type:</a></b>
+						<br/>
+						Uma categoria para o tipo de conteúdo. Uma lista completa de Tipos pode ser <a href="http://dublincore.org/documents/dcmi-type-vocabulary/#dcmitype-Collection" target="_blank" rel="nofollow" alt="Lista completa de Tipos DC" ttle="Lista completa de Tipos DC">encontrada aqui</a>. Abaixo as categorias mais usadas:
+					</p>
+					<ul class="beauty-list">
+						<li>"Text"</li>
+						<li>"Software"</li>
+						<li>"Service"</li>
+					</ul>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Type&quot; content=&quot;Text&quot; /&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Format -->
+					<p id="format">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#format" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Format:</a></b>
+						<br/>
+						Como o conteúdo ou recurso é apresentado. Uma lista completa de Formatos pode ser <a href="http://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="nofollow" alt="Uma lista completa de Formatos DC" ttle="Uma lista completa de Formatos DC">encontrada aqui</a>. Como somos desenvolvedores web, o formato mais usado é o <i>text/html</i>.
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Format&quot; content=&quot;text/html&quot; /&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Identifier -->
+					<p id="identifier">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#identifier" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Identifier:</a></b>
+						<br/>
+						Um identificador único para o seu conteúdo. Pode ser um texto ou um número gerado por um sistema de identificação formal - ou apenas uma URL. 
+
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Identifier&quot; content=&quot;http://www.mypage.com/2014/02/dublin-core-basics.html&quot;/&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Source -->
+					<p id="source">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#source" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Source:</a></b>
+						<br/>
+						Onde o conteúdo foi inicialmente publicado / originado. Um conteúdo que tem alguma relação intelectual com o conteúdo descrito. Se for conteúdo original, veiculado pela primeira vez e sem nenhuma relação intelectual com outros conteúdos, deve ser a URL para esse conteúdo.
+
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Source&quot; content=&quot;http://www.mypage.com&quot; /&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Language -->
+					<p id="language">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#language" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Language:</a></b>
+						<br/>
+						Em que linguagem o conteúdo foi escrito. Você precisa especificar o código correto da língua. Para isso, você pode ver uma lista com todos os códigos de linguagem <a href="" target="_blank" rel="nofollow" alt="lista com todos os códigos de linguagem" title="lista com todos os códigos de linguagem">aqui</a>.
+
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Language&quot; content=&quot;en&quot; /&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Relation -->
+					<p id="relation">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#relation" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Relation:</a></b>
+						<br/>
+						Como o conteúdo está relacionado com outros recursos. Por exemplo, pense em um capítulo de um livro: o capítulo é parte de (<i>isPartOf</i>) um livro. Uma lista completa de Relações pode ser encontrada <a href="" target="_blank" rel="nofollow" alt="Uma lista completa de Relações DC" title="Uma lista completa de Relações DC">aqui</a>.
+
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Relation&quot; content=&quot;http://www.mypage.com&quot; scheme=&quot;IsPartOf&quot; /&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Coverage -->
+					<p id="coverage">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#coverage" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Coverage:</a></b>
+						<br/>
+						Onde o conteúdo está localizado fisicamente. Normalmente inclui localização espacial (nome do lugar ou coordenadas geográficas), período temporal (data) ou jurisdição. 
+
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Coverage&quot; content=&quot;Florian&oacute;polis, Brasil&quot; /&gt;</code><br/>&nbsp;</pre>
+
+
+					<!-- Rights -->
+					<p id="rights">
+						<b><a href="http://dublincore.org/documents/usageguide/elements.shtml#rights" target="_blank" class="no-highlight" rel="nofollow" alt="Clique para ver a documentação completa" title="Clique para ver a documentação completa">Rights:</a></b>
+						<br/>
+						Informação dos direitos autorais do conteúdo. Pode conter a declaração de Copyright ou outros tipos de licenças.
+
+					</p>
+					<pre class="prettyprint"><br/><code class="language-html">&lt;meta name=&quot;DC.Rights&quot; content=&quot;Copyleft 2014, Fernando Paladini, Ltd. All rights reserved.&quot; /&gt;</code><br/>&nbsp;</pre>
+
+				</div>
+			</div>
+
+			<div class="slide-even center-h" id="slide5">
+				<div class="content">
+					<h1>Como Aplicar</h1>
+					<p>
+						Wow! Estamos muito felizes por você ter chegado tão longe, com certeza aprendeu muito hoje! Mas agora está na hora de aplicar o que você aprendeu, se não você vai esquecer tudo em breve. Pegue algum de seus projetos e vamos para a parte prática do Dublin Core.
+						<br/><br/><b>Para aplicar o que você aprendeu, você precisa:</b>
+					</p>
+					<ol class="beauty-list">
+						<li>Criar essas 15 tags de acordo com o seu conteúdo.</li>
+						<li>Adicione estas tags no seu HTML, dentro da seção &lt;HEAD&gt;.</li>
+						<li>Faça um cafézinho para mim...tá bom, estou brincando, não tem mais nenhum passo!</li>
+					</ol>
+					<p>P.S: Se você é meio preguiçoso e não quer criar as tags manualmente, você pode usar <a href="http://www.dublincoregenerator.com/generator_nq.html" target="_blank" rel="nofollow" alt="Gerador de meta tags Dublin Core" title="Gerador de meta tags Dublin Core">este</a> gerador de meta tags Dublin Core.
+
+						<br/><br/><br/>Se possível leia a última parte desse tutorial, <a href="#slide6" data-anchor>Conclusão</a>.
+					</p>
+
+				</div>
+			</div>
+
+			<div class="slide-odd center-h">
+				<div class="content">
+					<h1 id="slide6">Conclusão</h1>
+					
+					<p><b>Continue aprendendo</b>
+						<br/>
+						Você já aprendeu o básico das meta tags Dublin Core, mas o que fazer agora? Aqui estão algumas dicas do que você pode ler para melhorar os seus conhecimentos:
+					</p>
+					<ol class="beauty-list">
+						<li><a href="http://dublincore.org/documents/usageguide/elements.shtml" target="_blank" rel="nofollow" alt="Descrição completa de todas as tags" title="Descrição completa de todas as tags">Descrição completa de todas as tags</a></li>
+						<li><a href="http://en.wikipedia.org/wiki/Dublin_Core" target="_blank" rel="nofollow" title="Artigo na Wikipedia" alt="Artigo na Wikipedia">Artigo na Wikipedia</a></li>
+						<li><a href="http://dublincore.org/documents/usageguide/elements.shtml" title="Documentação oficial" alt="Documentação oficial" rel="nofollow" target="_blank">Documentação oficial</a></li>
+					</ol>
+
+					<p><b>Sobre</b>
+						<br/>
+						Esta página foi criada por Fernando Paladini, um estudante e desenvolvedor brasileiro de 18 anos. "Dublin Core: O Guia dos Iniciantes" é um projeto open-source distribuído sob os termos da licença MIT. Sinta-se livre para contribuir com nosso projeto no Github a qualquer momento. Traduções são bem vindas também, veja como entrar em contato comigo logo abaixo.
+					</p>
+					
+					<p><b>Contato</b>
+						<br/>
+						Se você quer falar comigo, achou algum erro nesse site ou quer fazer alguma proposta, pode enviar um e-mail para mim a qualquer hora. Você pode entrar comigo em fnpaladini@gmail.com. 
+					</p>
+
+				</div>
+			</div>
+		</main>
+
+		<!-- Loading Javascript & jQuery -->
+		<script src="../../assets/javascripts/jquery-2.1.0.min.js"></script>
+		<script src="../../assets/javascripts/prettify.js"></script>
+		<script src="../../assets/javascripts/verge.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+
+				// Add smooth scroll to links
+				$('a[data-anchor]').on('click', function(event){
+					event.preventDefault();
+					var href = $(this).get(0).href;
+					href = href.substring(href.indexOf('#')).replace('#','');
+					scrollToAnchor(document.getElementById(href));
+				});
+
+				// Add verge (check if element is in viewport)
+				jQuery.extend(verge);
+
+				// Blink the arrow-keys
+				function blinker(){
+					$('.arrow-keys').fadeOut(500);
+					$('.arrow-keys').fadeIn(500);
+				}
+				setInterval(blinker, 1200);
+
+				// Get all ids from this page
+				var allIds = getAllIds();
+				var current_id = 1;
+
+				// Highlighting the code
+				prettyPrint();
+
+				// Detect key press
+				$(document).on('keydown', function(e){
+
+					if(e.which == 40 || e.which == 38){
+						e.preventDefault();
+
+						// Determine if go down or up.
+						var multiply_factor = 1;
+						if(e.which == 38){
+							multiply_factor = -1;
+						}
+
+						for(var i = 0; i < allIds.length; i++){
+							
+							var el = document.getElementById(allIds[i]);
+							var anchor = $.inViewport(el, -5);
+							var next_id;
+							
+							if(anchor){
+								
+								next_id = document.getElementById(allIds[i+(1 * multiply_factor)]);
+								
+								if(i==3){
+									
+									// Check if element is one tag [Creator, Description] and look for the next element.
+									for(var j = (i + 1); j < (allIds.length - 2); j++){
+										var element = document.getElementById(allIds[j]);
+										if($.inViewport(element, -5)){
+											next_id = document.getElementById(allIds[j+(1 * multiply_factor)]);
+											break;
+										}
+									}
+								}
+									
+								if(next_id != null){
+									scrollToAnchor(next_id);
+								}
+								return false;
+							}
+						}
+						return false;
+					}
+				});
+				
+				// Util functions
+				function scrollToAnchor(tag){
+					var aTag = $(tag);
+					$('html,body').animate({scrollTop: aTag.offset().top},'slow');
+				}
+
+				// Select when click on 'pre' tag
+				jQuery.fn.selectText = function(){
+				    var doc = document
+				        , element = this[0]
+				        , range, selection
+				    ;
+				    if (doc.body.createTextRange) {
+				        range = document.body.createTextRange();
+				        range.moveToElementText(element);
+				        range.select();
+				    } else if (window.getSelection) {
+				        selection = window.getSelection();        
+				        range = document.createRange();
+				        range.selectNodeContents(element);
+				        selection.removeAllRanges();
+				        selection.addRange(range);
+				    }
+				};
+				$('pre').on('click', function(){
+					$(this).find('code').selectText();
+				});
+
+				// Get all ID's from this page
+				function getAllIds(){
+					var allElements = document.getElementsByTagName("*");
+					var allIds = [];
+					for (var i = 0, n = allElements.length; i < n; ++i) {
+					  var el = allElements[i];
+					  if (el.id) { allIds.push(el.id); }
+					}
+
+					return allIds;
+				}
+				
+			});
+
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-48343904-1', 'paladini.github.io');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>
